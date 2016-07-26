@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ListView 
+        android:id="@+id/lv_fragment_chat_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:transcriptMode="alwaysScroll"
+        android:listSelector="@android:color/transparent"
+        >
+    </ListView>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ADADAD"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <EditText 
+            android:id="@+id/et_fragment_chat_listview_import"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_fragment_chat_listview_send"
+            android:maxLines="2"
+            android:gravity="top"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:hint="请输入。。。"/>
+        
+        <Button 
+            android:id="@+id/btn_fragment_chat_listview_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/selector_fragment_chat_listview_send_btn_background"
+            android:textSize="18sp"
+            android:text="发送"/>
+        
+        <TextView
+            android:id="@+id/tv_fragment_chat_listview_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/btn_fragment_chat_listview_send"
+            android:background="@drawable/chatto_bg_pressed"
+            android:visibility="invisible"
+            android:text="不能发送空白消息！"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+1467558626699	Extract local variable 'holder'
+1467558654980	Extract local variable 'adapter'
+1467559614338	Convert local variable 'adapter' to field
+1467560247031	Extract local variable 'position'
+1467632999024	Copy file

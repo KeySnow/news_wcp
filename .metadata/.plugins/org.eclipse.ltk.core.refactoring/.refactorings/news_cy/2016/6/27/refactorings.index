@@ -1,0 +1,38 @@
+1467105644190	Delete element
+1467105852790	Delete element
+1467105869168	Move compilation unit
+1467114215929	Extract local variable 'view1'
+1467114901094	Copy file
+1467126498682	Extract local variable 'loadAnimation'
+1467126791834	Convert local variable 'service' to field
+1467127525981	Move compilation unit
+1467130325670	Extract local variable 'slidingMenu'
+1467201046197	Rename resource 'slidingmenu_layout.xml'
+1467202084108	Convert local variable 'slidingMenu' to field
+1467203409517	Extract local variable 'listener'
+1467204888545	Extract local variable 'listenet'
+1467205544982	Extract local variable 'view'
+1467206324219	Extract local variable 'queue'
+1467206430638	Extract local variable 'result'
+1467208166292	Extract local variable 'gson'
+1467208422480	Extract local variable 'news'
+1467209175207	Extract local variable 'data'
+1467209195046	Extract local variable 'bitmap'
+1467209299605	Extract local variable 'adapter'
+1467210332781	Extract local variable 'intent'
+1467210343770	Extract local variable 'url'
+1467210384971	Extract local variable 'settings'
+1467210739905	Extract local variable 'view'
+1467211608381	Convert local variable 'url' to field
+1467211684407	Convert local variable 'title' to field
+1467287529999	Extract local variable 'db'
+1467287742878	Extract local variable 'newsList'
+1467287758204	Extract local variable 'db'
+1467287842258	Extract local variable 'cursor'
+1467287904353	Extract local variable 'icon'
+1467287929802	Extract local variable 'title'
+1467288014253	Extract local variable 'data'
+1467288245814	Extract local variable 'db'
+1467288434665	Extract local variable 'newsDbManager'
+1467291223087	Extract local variable 'manager'
+1467291287620	Convert local variable 'manager' to field

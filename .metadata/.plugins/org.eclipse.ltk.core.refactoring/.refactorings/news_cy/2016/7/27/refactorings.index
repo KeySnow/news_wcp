@@ -1,0 +1,6 @@
+1467388519516	Extract local variable 'oldUrl'
+1467388604365	Extract local variable 'targetUrlLen'
+1467388616961	Extract local variable 'firstIndex'
+1467388663827	Extract local variable 'subUrl1'
+1467388743629	Extract local variable 'subUrl2'
+1467388762115	Extract local variable 'newUrl'
